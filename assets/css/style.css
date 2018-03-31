@@ -36,11 +36,11 @@ h4 {
   margin-top: 50px;
 }
 
-#goalBox, #scoreBox {
+#goalBox, #scoreBox, #payBox {
   margin: 25px auto;
   padding: 10px;
   float: left;
-  width: 40%;
+  width: 31%;
 }
 
 #instructionBox {

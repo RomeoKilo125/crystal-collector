@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #777;
+  background-image: url('../images/cave.jpg');
+  font-family: 'Chicle', cursive;
+  text-align: center;
+  color: #808;
+}
+
+div {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 6em;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 4em;
+}
+
+h4 {
+  font-size: 3em;
+}
+
+.container {
+  width: 960px;
+}
+.crystal {
+  float: left;
+  width: 25%;
+  margin-top: 50px;
+}
+
+#goalBox, #scoreBox {
+  margin: 25px auto;
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+
+#instructionBox {
+  visibility: hidden;
+}

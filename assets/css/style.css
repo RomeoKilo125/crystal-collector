@@ -8,6 +8,7 @@ body {
   font-family: 'Chicle', cursive;
   text-align: center;
   color: #808;
+  font
 }
 
 div {
@@ -41,6 +42,16 @@ h4 {
   padding: 10px;
   float: left;
   width: 31%;
+  height: 200px;
+}
+
+#instructButton {
+  padding: 5px;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #088;
+  border: 0;
+  color: inherit;
 }
 
 #instructionBox {

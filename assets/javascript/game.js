@@ -33,8 +33,8 @@ $(document).ready(function() {
   // Win the game, collect your pay
   function WinGame() {
     // collect your pay
-    totalPay += currValue * 100;
-    $('#pay').text(totalPay);
+    totalPay += currValue;
+    $('#pay').text("$" + totalPay);
     $('#pay').attr('value', totalPay);
 
 
@@ -70,7 +70,15 @@ $(document).ready(function() {
   });
 
   $('#instructButton').on('click', function() {
-
+    console.log("show instructions");
+    if ($('#instructionBox').hasClass("hidden")) {
+      $('#instructionBox').animate
+      $('#instructionBox').removeClass("hidden");
+      $('#instructButton').text("Click to Hide Instructions")
+    } else {
+      $('#instructionBox').addClass("hidden");
+      $('#instructButton').text("Click for Instructions");
+    }
   });
 
   InitGame();
